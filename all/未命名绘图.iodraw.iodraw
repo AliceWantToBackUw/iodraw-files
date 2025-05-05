@@ -4,6 +4,473 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p7UehH-CB5oneTRwbvrg-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-2" value="前端(Vue2+ElementUI)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="234" y="20" width="180" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-3" value="后端中间件(Token验证)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="509" y="20" width="184" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-4" value="后端路由(FastAPI Routers)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="743" y="20" width="204" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-5" value="后端服务(Services)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="20" width="151" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="p7UehH-CB5oneTRwbvrg-5">
+          <mxGeometry x="70" y="1433" width="10" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-7" value="数据库(MySQL+Tortoise ORM)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1206" y="20" width="235" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-8" value="文件系统(本地存储)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1491" y="20" width="158" height="3874" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-9" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="409" width="1250" height="724" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-10" value="[Token有效]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-9">
+          <mxGeometry x="30" width="1220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-11" value="[Token无效]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-9">
+          <mxGeometry y="415" width="1250" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-12" value="opt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="1831" width="1082" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-13" value="[用户终止训练]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-12">
+          <mxGeometry x="30" width="1052" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-14" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="74" y="1681" width="1102" height="496" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-15" value="[训练过程中]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-14">
+          <mxGeometry x="40" width="1062" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-16" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="64" y="1323" width="1517" height="1386" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-17" value="[Token有效]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-16">
+          <mxGeometry x="30" width="1487" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-18" value="[Token无效]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-16">
+          <mxGeometry y="1077" width="1517" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-19" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="54" y="229" width="1537" height="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-20" value="[普通JSON请求]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-19">
+          <mxGeometry x="30" width="1507" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-21" value="[模型训练SSE请求]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-19">
+          <mxGeometry y="919" width="1537" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-22" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="3043" width="1497" height="746" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-23" value="[Token有效]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-22">
+          <mxGeometry x="30" width="1467" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-24" value="[Token无效]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-22">
+          <mxGeometry y="519" width="1497" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-25" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="74" y="2729" width="1517" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-26" value="[文件上传请求]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="p7UehH-CB5oneTRwbvrg-25">
+          <mxGeometry x="30" width="1487" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-27" value="发起操作请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-1" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-28" value="添加Authorization Token到请求头" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="179" />
+              <mxPoint x="375" y="209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-29" value="发送HTTP请求(携带Token)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-30" value="校验Token合法性与有效期" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="359" />
+              <mxPoint x="652" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-31" value="转发请求到对应路由" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="487" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-32" value="调用对应业务逻辑" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-4" target="p7UehH-CB5oneTRwbvrg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-33" value="执行数据库操作(如需要)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-5" target="p7UehH-CB5oneTRwbvrg-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1208" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-34" value="返回数据库操作结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-7" target="p7UehH-CB5oneTRwbvrg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1211" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-35" value="返回处理结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-5" target="p7UehH-CB5oneTRwbvrg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="972" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-36" value="返回JSON格式的响应" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-4" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="596" y="747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-37" value="显示操作结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-38" value="返回401认证失败" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-39" value="清除本地Token" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="949" />
+              <mxPoint x="375" y="979" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-40" value="跳转到登录页面" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1031" />
+              <mxPoint x="375" y="1061" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-41" value="提示需要重新登录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="1113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-42" value="建立SSE连接(携带Token)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="1221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-43" value="校验Token合法性与有效期" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="1273" />
+              <mxPoint x="652" y="1303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-44" value="转发到模型训练路由" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="1401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-45" value="启动异步模型训练任务" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-4" target="p7UehH-CB5oneTRwbvrg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="1453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-46" value="存储上传的音频文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1333" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-47" value="确认存储成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-8" target="p7UehH-CB5oneTRwbvrg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1336" y="1557" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-48" value="发送训练开始事件(SSE)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1609" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-49" value="更新UI显示训练开始" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="1661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-50" value="实时推送训练进度(SSE)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-51" value="更新UI显示训练进度" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="1811" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-52" value="点击终止训练" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-1" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="1909" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-53" value="发送终止训练请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="707" y="1961" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-54" value="停止训练任务" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1131" y="2013" />
+              <mxPoint x="1131" y="2043" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-55" value="发送训练终止事件(SSE)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="2095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-56" value="更新UI显示训练已终止" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="2147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-57" value="保存训练完成的模型信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="2219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-58" value="确认数据保存成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-7" target="p7UehH-CB5oneTRwbvrg-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1213" y="2271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-59" value="发送训练完成事件(SSE)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-6" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="2323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-60" value="更新UI显示训练完成" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="2375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-61" value="返回401认证失败" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="2473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-62" value="清除本地Token" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="2525" />
+              <mxPoint x="375" y="2555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-63" value="跳转到登录页面" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="2607" />
+              <mxPoint x="375" y="2637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-64" value="提示需要重新登录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="2689" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-65" value="选择上传文件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-1" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="2807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-66" value="添加Authorization Token到请求头" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="2859" />
+              <mxPoint x="375" y="2889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-67" value="发送文件上传请求(FormData)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="2941" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-68" value="校验Token合法性与有效期" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="2993" />
+              <mxPoint x="652" y="3023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-69" value="转发到文件上传路由" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="3121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-70" value="处理文件上传" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-4" target="p7UehH-CB5oneTRwbvrg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="969" y="3173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-71" value="保存文件到本地存储" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-5" target="p7UehH-CB5oneTRwbvrg-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1331" y="3225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-72" value="返回文件存储路径" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-8" target="p7UehH-CB5oneTRwbvrg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1334" y="3277" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-73" value="记录文件元数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-5" target="p7UehH-CB5oneTRwbvrg-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1208" y="3329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-74" value="确认数据保存成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-7" target="p7UehH-CB5oneTRwbvrg-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1211" y="3381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-75" value="返回上传结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-5" target="p7UehH-CB5oneTRwbvrg-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="972" y="3433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-76" value="返回JSON格式的文件信息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-4" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="596" y="3485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-77" value="显示上传成功" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="3537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-78" value="返回401认证失败" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-3" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="3635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-79" value="清除本地Token并跳转登录页" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="3687" />
+              <mxPoint x="375" y="3717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p7UehH-CB5oneTRwbvrg-80" value="提示需要重新登录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="p7UehH-CB5oneTRwbvrg-2" target="p7UehH-CB5oneTRwbvrg-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="3769" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
